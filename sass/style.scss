@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Stylish&display=swap');
+
+:root {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    // position: fixed;
+    width: 100%;
+    align-items: baseline;
+    background-color: #f4f3ee;
+
+    .nav-brand {
+        padding: 10px 20px;
+
+        a {
+            text-decoration: none;
+        }
+
+        i {
+            color: red;
+            font-size: 32px;
+        }
+
+        span {
+            font-size: 28px;
+            font-weight: 800;
+            margin-left: 5px;
+            color: #987284;
+            letter-spacing: 0.1rem;
+        }
+
+    }
+
+    .nav-menu {
+        li {
+            display: inline-block;
+            width: 100px;
+
+            a {
+                text-decoration: none;
+
+                i,
+                span {
+                    font-size: 1.25rem;
+                    font-weight: 800;
+                    color: #987284;
+                    letter-spacing: 0.1rem;
+                }
+
+                span {
+                    margin-left: 10px;
+
+                }
+            }
+        }
+    }
+}
+
+.content {
+    height: auto;
+
+}
+
+.home-pane {
+    height: 100%;
+    background-color: #f4f3ee;
+}
+
+.saying {
+    height: 50%;
+    background-image: url('/img/bg.png');
+    text-align: center;
+    // color: white;
+    padding-top: 230px;
+    margin-bottom: -150px;
+
+    strong {
+        font-size: 2rem;
+        color: #987284;
+        letter-spacing: 0.1rem;
+    }
+}
+
+.saying::after {
+    content: "";
+    display: block;
+    /*这里的padding =  height / width*/
+    padding-bottom: 25%;
+}
+
+.css-world {
+    width: 80%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.css-world-title {
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    letter-spacing: 0.1rem;
+    font-size: 1.75rem;
+
+}
+
+.css-world-chapter {
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.css-world-list {
+    letter-spacing: 0.1rem;
+    font-size: 1.25rem;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.post {
+    padding: 20px;
+    letter-spacing: 0.1rem;
+
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h4 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+.tip {
+    padding: 10px;
+    background-color: #f9b5ac;
+
+    h5 {
+        padding-bottom: 0px;
+        margin: 0px;
+        font-size: 1rem;
+    }
+
+    p {
+        padding: 0;
+        margin: 0px;
+    }
+}
+
+.post-title {
+    text-align: right;
+    border-bottom: 1px solid black;
+    padding-right: 20px;
+
+}
+
+.post-sub-title {
+    text-align: right;
+    font-size: 1.25rem;
+    padding-bottom: 20px;
+    color: #9dbf9e;
+
+    span {
+        font-size: 1rem;
+    }
+}
+
+pre {
+    margin: 10px 20px;
+
+}
+
+footer {
+    background-color: #f4f3ee;
+    padding: 20px;
+
+}
