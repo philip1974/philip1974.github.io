@@ -14,63 +14,27 @@ body {
     padding: 0;
 }
 
-.navbar {
+.navbar-brand {
 
-    display: flex;
-    justify-content: space-between;
-    // position: fixed;
-    width: 100%;
-    align-items: baseline;
-    background-color: #f4f3ee;
-
-    .nav-brand {
-        padding: 10px 20px;
-
-        a {
-            text-decoration: none;
-        }
-
-        i {
-            color: red;
-            font-size: 32px;
-        }
-
-        span {
-            font-size: 28px;
-            font-weight: 800;
-            margin-left: 5px;
-            color: #987284;
-            letter-spacing: 0.1rem;
-        }
-
+    i {
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: red;
     }
 
-    .nav-menu {
-        li {
-            display: inline-block;
-            width: 100px;
-
-            a {
-                text-decoration: none;
-
-                i,
-                span {
-                    font-size: 1.25rem;
-                    font-weight: 800;
-                    color: #987284;
-                    letter-spacing: 0.1rem;
-                }
-
-                span {
-                    margin-left: 10px;
-
-                }
-            }
-        }
+    span {
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.1rem;
     }
 }
 
+.nav-link {
+    span {
+        margin-left: 5px;
 
+    }
+}
 
 .col-3 {
 
@@ -100,7 +64,6 @@ body {
 
 .course-card-img {
     text-align: center;
-
 
     img {
         max-width: 163px;
@@ -197,6 +160,7 @@ body {
         padding-right: 10px;
     }
 
+
     h4 {
         padding-left: 10px;
         padding-right: 10px;
@@ -224,6 +188,7 @@ body {
     text-align: right;
     border-bottom: 1px solid black;
     padding-right: 20px;
+    padding-bottom: 10px;
 
 }
 
