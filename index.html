@@ -12,6 +12,8 @@
   <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.ico">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 
   <title>bigm119.com</title>
@@ -19,51 +21,135 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
 
 
     <header>
-      <nav class="navbar">
-        <div class="nav-brand">
-          <a href="https://css48.com">
-            <i class="fab fa-gripfire"></i>
-            <span>CSS48</span>
-          </a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://css48.com"> <i class="fab fa-gripfire"></i>
+            <span>CSS48</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://css48.com"><i
+                    class="fas fa-home"></i><span>Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://css48.com/navigation.html"><i
+                    class="far fa-compass"></i><span>자원</span></a>
+              </li>
+
+            </ul>
+          </div>
         </div>
-
-        <ul class="nav-menu">
-          <li><a href="https://css48.com"><i class="fas fa-home"></i><span>Home</span></a></li>
-          <li><a href="https://css48.com/navigation.html"><i class="far fa-compass"></i><span>자원</span></a></li>
-        </ul>
-
       </nav>
     </header>
 
     <main class="content">
 
-      <div class="home-pane">
-        <section class="saying">
-          <article>
-            <strong>
-              하루에 3시간을 걸으면 7년 후에 지구를 한바퀴 돌 수 있다.
-            </strong>
-            <span>-사무엘존슨</span>
-          </article>
-        </section>
-        <section class="css-world">
-          <h2 class="css-world-title">CSS의 세계</h2>
-          <article>
-            <h3 class="css-world-chapter">1. 기초 개념 이해하기</h3>
-            <ol class="css-world-list">
-              <li><a href="#">HTML과 CSS는 무엇인가?</a></li>
-              <li><a href="#">block & inline</a></li>
+      <section class="home-pane row">
+        <article class="course-card col-lg-3 col-12">
+          <a href="/course/vscode.html" class="course-link">
+            <div class="course-card-img" style="background-color: #007acc;">
+              <img src="/img/course/vscode.png" alt="">
+            </div>
+            <div class="course-card-title">
+              VSCode
+            </div>
+            <div class="course-card-body">
+              오픈소스 에디터
+            </div>
+          </a>
+        </article>
+        <article class="course-card col-lg-3 col-12">
+          <a href="/course/sublime_text3.html" class="course-link">
+            <div class="course-card-img" style="background-color: #3c3c3c;">
+              <img src="/img/course/sublime_text.png" alt="" style="width:142px;">
+            </div>
+            <div class="course-card-title">
+              Sublime Text3
+            </div>
+            <div class="course-card-body">
+              가볍고 강력한 에디터
+            </div>
+          </a>
+        </article>
+        <article class="course-card col-lg-3 col-12">
+          <a href="/course/vim.html" class="course-link">
+            <div class="course-card-img" style="background-color: #3c3c3c;">
+              <img src="/img/course/vim-novice-icon.svg" alt=""
+                style="width: 140px; margin-top: 6px; margin-bottom: 6px;">
+            </div>
+            <div class="course-card-title">
+              Vim Plugin
+            </div>
+            <div class="course-card-body">
+              최고의 에디터 플러그인
+            </div>
+          </a>
+        </article>
+        <article class="course-card col-lg-3 col-12">
+          <a href="/course/css.html" class="course-link">
+            <div class="course-card-img" style="background-color: #9b5c8f;">
+              <img src="/img/course/css-text.png" alt="" style="width: 163px;margin-top: 5px; margin-bottom: 5px;">
+            </div>
+            <div class="course-card-title">
+              CSS3
+            </div>
+            <div class="course-card-body">
+              css문법
+            </div>
+          </a>
+        </article>
+        <article class="course-card col-lg-3 col-12">
+          <a href="/course/javascript.html" class="course-link">
+            <div class="course-card-img" style="background-color: #66d1ff;">
+              <img src="/img/course/javascript.png" alt="" style="width: 163px;margin-top: 5px; margin-bottom: 5px;">
+            </div>
+            <div class="course-card-title">
+              Javascript
+            </div>
+            <div class="course-card-body">
+              javascript 프로그래밍
+            </div>
+          </a>
+        </article>
+        <article class="course-card col-lg-3 col-12">
+          <a href="/course/python.html" class="course-link">
+            <div class="course-card-img" style="background-color: #2b5b84;">
+              <img src="/img/course/python.png" alt="" style="width: 163px;margin-top: 5px; margin-bottom: 5px;">
+            </div>
+            <div class="course-card-title">
+              Python
+            </div>
+            <div class="course-card-body">
+              python 프로그래밍
+            </div>
+          </a>
+        </article>
 
-            </ol>
-          </article>
+        <article class="course-card col-lg-3 col-12">
+          <a href="#" class="course-link">
+            <div class="course-card-img" style="background-color: #294E80;">
+              <img src="/img/course/it_box.png" alt="" style="width: 160px;margin-top: 5px; margin-bottom: 5px;">
+            </div>
+            <div class="course-card-title">
+              IT 기본스킬
+            </div>
+            <div class="course-card-body">
+              필습 기능들 모음
+            </div>
+          </a>
+        </article>
 
 
-        </section>
-      </div>
+
+      </section>
 
     </main>
     <footer>
@@ -72,7 +158,12 @@
 
   </div>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
   <script src="/js/yir-ui-dist.js"></script>
 </body>
 

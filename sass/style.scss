@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 
-html,
+
 body {
-    height: 100%;
-    margin: 0;
+
     font-family: 'Oswald', sans-serif;
 }
 
-.container {
-    height: 100%;
+.container-fluid {
+    padding: 0;
 }
 
 .navbar {
+
     display: flex;
     justify-content: space-between;
     // position: fixed;
@@ -70,12 +70,63 @@ body {
     }
 }
 
-.content {
-    height: auto;
 
+
+.col-3 {
+
+    padding: 0;
 }
 
 .home-pane {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f3ee;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.course-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #f4f3ee;
+}
+
+.course-link {
+    text-decoration: none;
+    color: black;
+}
+
+.course-card-img {
+    text-align: center;
+
+
+    img {
+        max-width: 163px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
+.course-card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    // margin-top: 10px;
+    background-color: #fff;
+}
+
+.course-card-body {
+    text-align: center;
+    font-size: 1rem;
+    // margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.chapter-pane {
     height: 100%;
     background-color: #f4f3ee;
 }
@@ -84,9 +135,8 @@ body {
     height: 50%;
     background-image: url('/img/bg.png');
     text-align: center;
-    // color: white;
-    padding-top: 230px;
-    margin-bottom: -150px;
+    padding-top: 120px;
+    margin-bottom: -80px;
 
     strong {
         font-size: 2rem;
@@ -98,7 +148,6 @@ body {
 .saying::after {
     content: "";
     display: block;
-    /*这里的padding =  height / width*/
     padding-bottom: 25%;
 }
 
@@ -195,7 +244,7 @@ pre {
 }
 
 footer {
-    background-color: #f4f3ee;
+
     padding: 20px;
 
 }
