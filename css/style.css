@@ -78,25 +78,50 @@ body {
   background-color: #f4f3ee;
 }
 
-.saying {
-  height: 50%;
-  background-image: url("/img/bg.png");
-  text-align: center;
-  padding-top: 120px;
-  margin-bottom: -80px;
-}
-.saying strong {
-  font-size: 2rem;
-  color: #987284;
-  letter-spacing: 0.1rem;
+.saying-bg {
+  --saying-img: url("/img/bg/css.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: var(--saying-img);
+  margin-bottom: -370px;
 }
 
-.saying::after {
+.saying-bg::after {
   content: "";
   display: block;
-  padding-bottom: 25%;
+  padding-bottom: 50%;
 }
 
+.saying-text {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.saying-text strong {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  color: #c44536;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+@media all and (max-width: 576px) {
+  .saying-bg {
+    --saying-img: url("/img/bg/css.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: var(--saying-img);
+    margin-bottom: -150px;
+  }
+
+  .saying-text {
+    text-align: center;
+    margin-bottom: 2.75rem;
+  }
+  .saying-text strong {
+    font-size: 1.5rem;
+  }
+}
 .css-world {
   width: 80%;
   background-color: #fff;
