@@ -237,8 +237,13 @@ body {
 }
 
 pre {
-    margin: 10px 20px;
+    padding: 0;
 
+    code {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
 }
 
 footer {

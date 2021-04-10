@@ -1,1 +1,1 @@
-let items=["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21"],item=items[Math.floor(Math.random()*items.length)],saying_img=document.querySelector(".saying-bg");saying_img.style.setProperty("--saying-img","url(/img/bg/"+item+".png)");
+function getRandomInt(t,g){return t=Math.ceil(t),g=Math.floor(g),Math.floor(Math.random()*g)+t}let saying_img=document.querySelector(".saying-bg"),img=getRandomInt(1,21);saying_img.style.setProperty("--saying-img","url(/img/bg/"+img+".png)");
