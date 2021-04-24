@@ -5,20 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="/img/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.ico">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 
-    <title> Flutter | css48.com </title>
+    <title>HiNet设计 | css48.com</title>
 
 </head>
 
 <body>
     <div class="container-fluid">
-
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
@@ -32,7 +31,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="https://css48.com"><i
+                                <a class="nav-link active" aria-current="page" href="https://css48.com"><i
                                         class="fas fa-home"></i><span>Home</span></a>
                             </li>
                             <li class="nav-item">
@@ -45,58 +44,30 @@
                 </div>
             </nav>
         </header>
-
         <main class="content">
+            <div class="post">
+                <h2 class="post-title">HiNet架构设计</h2>
+                <p class="post-sub-title">성공의 비결은 단 한 가지, 잘할 수 있는 일에 광적으로 집중하는 것이다. <span>- 톰 모나건</span></p>
+                <div class="post-content">
+                    <p>负责网络链接的HiNet底层设计</p>
+                    <h3>step1:结构设计</h3>
+                    <p>
+                        创建主管http通讯的代码结构。
+                    </p>
+                    <ul>
+                        <li>lib目录</li>
+                        <ul>
+                            <li>http目录</li>
+                            <ul>
+                                <li>core目录</li>
+                                <li>request目录</li>
+                            </ul>
+                        </ul>
+                    </ul>
 
-            <div class="chapter-pane">
-                <section class="saying-bg">
-
-                </section>
-                <section class="saying-text">
-                    <article>
-                        <strong>
-                            나이가 60이다 70이다 하는 것으로 그 사람이 늙었다 젊었다 할 수 없다.<br> 늙고 젊은 것은 그 사람의 신념이 늙었느냐 젊었느냐 하는데 있다.
-                        </strong>
-                        <span>-맥아더</span>
-                    </article>
-                </section>
-                <section class="css-world">
-                    <h2 class="css-world-title">Flutter 프레임워크</h2>
-                    <article>
-                        <h3 class="css-world-chapter">1. Dart의 데이터</h3>
-                        <ol class="css-world-list">
-                            <li><a href="/pages/flutter/data.html">Dart의 데이터 처리 상식</a></li>
-
-                        </ol>
-                    </article>
-                    <article>
-                        <h3 class="css-world-chapter">2. 코드 재사용</h3>
-                        <ol class="css-world-list">
-                            <li><a href="#">#</a></li>
-
-                        </ol>
-                    </article>
-                    <article>
-                        <h3 class="css-world-chapter">实战例子 - Flutter 仿bilibili哔哩哔哩</h3>
-                        <ol class="css-world-list">
-                            <li><a href="/pages/flutter/hi_net.html">HiNet架构设计</a></li>
-
-                        </ol>
-                    </article>
-                    <article>
-                        <h3 class="css-world-chapter">부록: 자원</h3>
-                        <ol class="css-world-list">
-                            <li><a href="https://youtu.be/WyvTE0OVYc8">仿直聘boss的flutter完整教程</a></li>
-                            <li><a href="https://youtu.be/lRbZsBvG9Ig">Flutter 입문. 안드로이드와 iOS 개발을 한 번에</a></li>
-                            <li><a href="https://youtu.be/ssq_WTIDns0">前端教程(flutter篇)</a></li>
-                            <li><a href="https://imooc.com/wiki/Flutter">imooc android studio 教程</a></li>
-
-                        </ol>
-                    </article>
-
-
-                </section>
+                </div>
             </div>
+
 
         </main>
         <footer>
@@ -104,7 +75,6 @@
         </footer>
 
     </div>
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
         integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
