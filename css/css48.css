@@ -40,9 +40,11 @@
 	margin-top: 20px;
 }
 
-.down h3 {
+.down h3,
+.down p {
 	margin-left: 20px;
 }
+
 
 .down-card {
 
@@ -63,4 +65,8 @@ footer {
 	-moz-border-radius: 20%;
 	-ms-border-radius: 20%;
 	-o-border-radius: 20%;
+}
+
+.iphone-down {
+	width: 100%;
 }
