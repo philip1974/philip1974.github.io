@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.picture {
+	border: 1px solid #ccc;
+	padding: 20px;
+	width: 400px;
+	border-radius: 10px;
+}
+.caption {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.course {
+	margin: 0 auto;
+	padding: 40px 40px 40px 100px;
+	border: 1px solid #cfcfcf;
+	width: 600px;
+	background: url(../images/bg.jpg) repeat-y;
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.contents h1 {
+	font-size: 25px;
+	border-bottom: 5px solid #40bdc2;
+}
+.contents h2 {
+	font-size: 20px;
+}
+img.float_left {
+	float: left;
+	margin: 0 10px 10px 0;
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.setmenu {
+	padding: 80px;
+	width: 500px;
+	background: url(../images/bg1.png) left top repeat-x,
+	            url(../images/bg2.png) right 20px bottom 20px no-repeat,
+	            url(../images/bg3.jpg) repeat left top,
+	            #bb9167;
+}
+setmenu h1 {
+	text-align: center;
+}

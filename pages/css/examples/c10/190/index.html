@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>액세스 키를 설정하고 싶다</title>
+<link rel="stylesheet" href="../../common/css/style-hastings.css">
+</head>
+<body>
+<header>
+	<div class="header-container">
+		<h1>Hastings</h1>
+	</div>
+</header>
+<div class="contents">
+	<div class="contents-container">
+	<!-- 샘플은 여기서부터 -->
+
+	<h1>등록정보</h1>
+	<form action="#" method="POST">
+		<p>
+			<label>ID 재설정（I） <input type="text" name="id_name" accesskey="I"></label>
+		</p>
+		<p>
+			<label>비밀번호 재설정（P） <input type="password" name="pw" accesskey="P"></label>
+		</p>
+		<p>
+			2단계 인증을
+			<label><input type="radio" name="tfa" value="y" accesskey="Y">사용（Y）</label>
+			<label><input type="radio" name="tfa" value="n" accesskey="N">사용하지 않음（N）</label>
+		</p>
+		<p><input type="submit" value="설정변경（S）" accesskey="S"></p>
+	</form>
+	
+	<!-- 샘플은 여기까지 -->
+	</div>
+</div>
+<footer>
+	<div class="footer-container">
+		<p><small>©Hastings</small></p>
+	</div>
+</footer>
+</body>
+</html>

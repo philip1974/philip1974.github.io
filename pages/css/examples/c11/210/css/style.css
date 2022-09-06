@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.contents h1 {
+	padding: 20px;
+	font-size: 25px;
+	border: 1px dotted #989898;
+	color: #565656;
+}
+.voice {
+	margin-top: 50px;
+	padding: 20px 60px;
+	background: url(../images/bg1.png) top left no-repeat,
+	            url(../images/bg2.png) bottom right no-repeat;
+	color: #565656;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.news {
+	padding: 30px;
+	border: 2px solid #dddddd;
+	border-radius: 10px;
+}
+.news-title {
+	font-size: 20px;
+}
+.info {
+	margin: 1em 0;
+	padding: 0;
+	list-style: none;
+}
+hr {
+	border: none;
+	border-top: 1px dashed #f56500;
+}

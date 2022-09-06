@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.news {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.news li {
+	padding-left: 150px;
+	text-indent: -150px;
+}
+.news time {
+	display: inline-block;
+	width: 150px;
+	text-indent: 0;
+}

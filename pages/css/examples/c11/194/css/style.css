@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.shortcut li {
+	margin-bottom: 20px;
+}
+kbd {
+	margin: 0 0.5em;
+	padding: 2px 0.625em;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	background-color: #dbe4e7;
+}

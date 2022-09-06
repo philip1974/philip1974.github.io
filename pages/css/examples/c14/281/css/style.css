@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+html {
+	font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+	html {
+		font-size: 14px;
+	}
+}
+html * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: url(../images/bg.png);
+	font-family: sans-serif;
+}
+/* ヘッダー */
+header {
+	background: #000000;
+}
+.header-container {
+	margin: 0 auto;
+	padding: 30px 20px 10px 20px;
+	max-width: 1000px;
+}
+.header-logo {
+	margin: 0;
+	width: 100px;
+	height: 22px;
+	background-image: url(../images/logo.png);
+	background-size: 100px 22px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+@media screen and (min-width: 768px) {
+	/* ヘッダー */
+	.header-logo {
+		width: 200px;
+		height: 44px;
+		background-size: 200px 44px;
+	}
+}
+/* ナビゲーション */
+nav {
+	font-size: 0.78rem;
+	background: #000000;
+}
+@media screen and (min-width: 768px) {
+	nav {
+		font-size: 1rem;
+	}
+}
+.nav-container {
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	max-width: 1000px;
+}
+.globalnav {
+	display: flex;
+	flex-flow: row;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.globalnav li {
+	flex: 0 0 20%;	
+}
+.globalnav li a {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 8px solid #ffffff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100%;
+	color: #ffffff;
+}
+.globalnav li a:hover,
+.globalnav li a.current {
+	border-bottom: 8px solid #7bae34;
+	color: #7bae34;
+}
+/* フッター */
+footer { }
+.footer-container {
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 1000px;
+	border-radius: 0 0 10px 10px;
+	background: #000000;	
+}
+.copyright {
+	margin: 0;
+	font-size: 0.8rem;
+	color: #ffffff;
+}
+/* メインコンテンツレイアウト部分 */
+.main-contents { }
+.main-contents-container {
+	margin: 0 auto;
+	padding: 0 0 40px 0;
+	max-width: 1000px;
+	background: #ffffff;
+}
+/* 料金表部分 */
+.pricelist {
+	margin: 0 20px 0 20px;
+}
+.pricelist h1 {
+	margin: 0;
+	padding: 30px 0;
+	font-size: 1.2rem;
+}
+/* すべてのテーブル要素をdisplay: block;に */
+.pricelist-table,
+.pricelist-table tr,
+.pricelist-table th,
+.pricelist-table td {
+	display: block;
+}
+/* 画面幅が広いときはdisplayをもとに戻す */
+@media screen and (min-width: 768px) {
+	.pricelist-table {
+		display: table;
+		border-collapse: collapse;
+		width: 100%;
+	}
+	.pricelist-table tr {
+		display: table-row;
+	}
+	.pricelist-table th,
+	.pricelist-table td {
+		display: table-cell;
+	}
+}
+
+/* テーブルで表示しないときのスタイル */
+.pricelist-table th,
+.pricelist-table td {	
+	padding: 1rem;
+	border-left: 1px solid #dadada;
+	border-right: 1px solid #dadada;
+}
+.pricelist-table th {
+	background-color: #37b9d5;
+	color: #ffffff;
+	font-size: 1.2rem;
+	text-align: left;
+	border-top: 1px solid #dadada;
+}
+.pricelist-table-sub {
+	font-size: 0.8rem;
+	font-weight: normal;
+}
+.pricelist-td-price {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.pricelist-td-button {
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #dadada;
+}
+.pricelist-td-button a {
+	display: inline-block;
+	padding: 0.5rem 2rem;
+	background: #000;
+	border-radius: 20px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.pricelist-td-button a:hover {
+	background-color: #3b3b3b;
+}
+/* テーブルで表示するときのスタイル */
+@media screen and (min-width: 768px) {
+	.pricelist-table th,
+	.pricelist-table td {
+		border: 1px solid #dadada;
+	}
+	.pricelist-table th {
+		white-space: nowrap;
+	}
+	.pricelist-td-price {
+		white-space: nowrap;
+	}
+	.pricelist-td-button {
+		white-space: nowrap;
+	}
+}

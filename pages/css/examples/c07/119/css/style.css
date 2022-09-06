@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.sale-banner {
+	margin-bottom: 30px;
+	padding-left: 20px;
+	background: #ffc41c;
+}
+.img-align {
+	vertical-align: middle;
+}

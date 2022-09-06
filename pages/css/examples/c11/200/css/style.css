@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.breadcrumb {
+	list-style: none;
+	border: 1px solid #b3b3b3;
+	padding: 3px 20px;
+	border-radius: 5px;
+	background-color: #ececec;
+	font-size: 14px;
+}
+.breadcrumb a {
+	color: #e87a19;
+	text-decoration: none;
+}
+.breadcrumb li {
+	display: inline-block;
+}
+.breadcrumb li::after {
+	content: "»";
+	padding: 0 5px;
+	color: #b3b3b3;
+}
+.breadcrumb li:last-child::after {
+	content: none;
+}

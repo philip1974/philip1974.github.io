@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.info {
+	border: 2px solid #ddd;
+	padding: 8px;
+}
+.year-price {
+	color: #1aa7b1;
+}

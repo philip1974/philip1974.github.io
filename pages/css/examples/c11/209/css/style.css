@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.gotop {
+	display: block;
+	margin: 40px auto 0 auto;
+	width: 80px;
+	padding: 10px;
+	text-align: center;
+	background: #294175;
+	border-radius: 15px 15px 0 0;
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+ }
+.gotop:hover {
+	  background: #94a8c7;
+}
+footer {
+	padding: 30px;
+	background-color: #294175;
+}
+footer p {
+	color: #ffffff;
+}

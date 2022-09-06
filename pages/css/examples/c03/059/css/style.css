@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.lead::first-line {
+	font-weight: bold;
+	font-size: 20px;
+	color: #1aa7b1;
+}

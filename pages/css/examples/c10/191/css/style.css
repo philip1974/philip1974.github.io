@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+form {
+	margin: 0 auto;
+	border: 2px solid #ccc;
+	padding: 16px;
+	width: 600px;
+	border-radius: 6px;
+}
+label {
+	font-size: 16px;
+}
+input[type="text"] {
+	font-size: 14px;
+}
+.stations {
+	overflow: hidden;
+}
+.station {
+	float: left;
+	width: 260px;
+}
+.ways {
+	float: left;
+	width: 80px;
+}
+.search_btn {
+	margin-top: 2em;
+	text-align: center;
+}

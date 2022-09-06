@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.keyword {
+	margin: 0 5px;
+	padding: 4px 15px;
+	border-radius: 20px;
+	background: linear-gradient(#299a0b, #91c149);
+	color: #ffffff;
+}

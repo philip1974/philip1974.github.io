@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+.link {
+	padding: 30px 0;
+}
+.link ul {
+	list-style: none;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+.link li {
+	padding:30px;
+}
+.link li a img {
+	transition: opacity 0.3s linear;
+}
+.link li a:hover img {
+	opacity: 0.5;
+}

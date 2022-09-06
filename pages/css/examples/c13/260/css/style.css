@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: #ffffff;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/* レイアウト部分 */
+.sidebar {
+	position: fixed;
+	width: 340px;
+	height: 100%;
+	padding: 50px 20px;
+	background: #000000;
+}
+.maincontents {
+	margin-left: 340px;
+	padding: 20px;
+}
+/* サイドバー */
+.header-logo {
+	margin: 0;
+	width: 200px;
+	height: 44px;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}
+nav {
+	margin: 0;
+	padding: 50px 0 0 0;
+}
+.globalnav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.globalnav li {
+	margin: 0 0 10px 0;
+}
+.globalnav li a {
+	display: block;
+	padding: 10px 20px;
+	border-bottom: 2px solid #ffffff;
+	text-decoration: none;
+	color: #ffffff;
+}
+.globalnav li a:hover,
+.globalnav li a.current {
+	border-bottom: 2px solid #7bae34;
+	color: #7bae34;
+}
+/* メインコンテンツ */
+.keyvisual {
+	font-size: 0;
+}
+.keyvisual img {
+	width: 100%;
+	border-radius: 10px;
+}
+.maincopy {
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.news {
+	margin: 0;
+	padding: 0 0 40px 0;
+}
+.news h2 {
+	margin: 0 0 20px 0;
+	font-size: 1.2rem;
+}
+.news-contents {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.news-contents li {
+	overflow: hidden;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid #dadada;
+}
+.news-contents li img {
+	float: left;
+	margin-right: 10px;
+}
+.news-contents li p {
+	margin: 0;
+}
+/* フッター */
+footer {
+	padding: 20px 0;
+	border-top: 1px solid #000000;
+}
+.copyright {
+	margin: 0;
+	font-size: 0.8rem;
+	text-align: right;
+}

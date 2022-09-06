@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+	margin-top: 10px;
+	border: 2px solid #b6b6b6;
+	padding: 5px 50px 5px 20px;
+	border-radius: 5px;
+	background: url(../images/arrow.png) right 10px center no-repeat, #e7e7e7;
+	font-size: 16px;
+}
+input[type="submit"] {
+	border: none;
+	padding: 5px 20px ;
+	border-radius: 5px;
+	background: #2ca9b4;
+	font-size: 14px;
+	color: #ffffff;
+}

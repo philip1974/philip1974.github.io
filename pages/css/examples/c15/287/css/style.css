@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body {
+	background-color: #da5d29;
+}
+main {
+	padding: 40px;
+}
+.logo {
+	font-weight: normal;
+	font-family: 'Lobster', cursive;
+	font-size: 80px;
+	color: #f1e5d0;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.info {
+	font-family: 'Homenaje', sans-serif;
+	font-size: 30px;
+	text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5), 1px 1px 1px rgba(0, 0, 0, 0.5);
+}

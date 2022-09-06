@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+iframe {
+	border: none;
+}
+
+/* iframe内のHTML(sub/sub.html)用のCSS */
+.report {
+	overflow: hidden;
+	margin: 0;
+}
+.report-list {
+	margin: 0;
+}
+.report h2 {
+	font-size: 1em;
+}
+.report p {
+	font-size: 0.85em;
+}

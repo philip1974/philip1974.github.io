@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body {
+	font-family: sans-serif;
+}
+.sale-box {
+	padding: 20px 20px 0 20px;
+	width: 260px;
+	height: 280px;
+	background: #ffc41c;
+	text-align: center;
+}
+.sale-box h1 {
+	font-size: 50px;
+}

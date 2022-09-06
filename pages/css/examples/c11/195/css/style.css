@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+li {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+a {
+	color: #15b4ba;
+}
+a[target="_blank"]::after {	
+	content: url(../images/link.png);
+	margin-left: 5px;
+
+	position: relative;
+	bottom: -1px;
+}

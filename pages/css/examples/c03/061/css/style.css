@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.forecast {
+	text-align: center;
+}
+.temperature {
+	font-size: 2.4em;
+	font-weight: bold;
+}
+.temperature::after {
+	content: "\2103";
+}
+.min {
+	color: #007ec5;
+}
+.max {
+	color: #ed3034;
+}
+.diff {
+	margin: 0 8px;
+	padding: 0 8px;
+	background: #ddd;
+}

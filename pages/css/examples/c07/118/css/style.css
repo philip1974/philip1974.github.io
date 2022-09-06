@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.snsbox {
+	width: 400px;
+}
+.snsbox h3 {
+	margin: 0;
+	border: 1px solid #425e9a;
+	padding: 5px;
+	background: #425e9a;
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	color: #ffffff;
+}
+.snsbox ul {
+	list-style: none;
+	margin: 0;
+	border: 1px solid #425e9a;
+	padding: 20px;
+}
+.snsbox li {
+	margin: 0.5em 0;
+}
+.sns {
+	padding-right: 12px;
+	vertical-align: -6px;
+}

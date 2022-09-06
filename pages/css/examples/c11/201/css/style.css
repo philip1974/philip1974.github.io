@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.tags a {
+	margin: 0 5px 0 0;
+	padding: 3px 20px;
+	background: #ececec;
+	border: 1px solid #b3b3b3;
+	border-radius: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	color: #4c4c4c;
+}
+.tags a:hover {
+	background: #fcfcfc;
+}

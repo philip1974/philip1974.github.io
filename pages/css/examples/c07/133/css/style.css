@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+.thumbnail {
+	border: 1px solid #c0c0c0;
+	padding: 10px;
+	width: 400px;
+	border-radius: 10px;
+	background-color: #e7e7e7;
+}

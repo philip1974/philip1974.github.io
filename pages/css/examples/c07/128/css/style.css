@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.special {
+	margin: 0 auto;
+	padding: 80px 40px;
+	width: 600px;
+	background: #1b90aa url(../images/bg.png) left 20px top 20px no-repeat;
+	color: #ffffff;
+}
+.special h1{
+	font-size:50px;
+	text-align: center;
+}

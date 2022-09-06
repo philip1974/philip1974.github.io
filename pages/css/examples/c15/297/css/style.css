@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+.outer ul {
+	overflow: hidden;
+	padding: 60px 20px; 
+	margin: 2em 0;
+	list-style: none;
+}
+.outer li {
+	float: left;
+	box-sizing: border-box;
+	width: 20%;
+	padding : 8px;
+	font-size: 0;
+}
+.outer li img {
+	width: 100%;
+	height: auto;
+	outline: 4px solid #dedede;
+	transition: all 0.5s cubic-bezier(.48,.01,.45,1.9);
+}
+.outer li a:hover img {
+	box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.4);
+	transform: scale(1.2) rotate(8deg);
+	z-index: 100;
+}

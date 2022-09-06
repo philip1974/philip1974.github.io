@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+a {
+	color: #ea6357;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(255, 238, 148, 0.8);
+}
+a:hover {
+	outline: 1px solid #ea6357;
+}

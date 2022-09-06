@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+main {
+	width: 700px;
+}
+h1 {
+	font-size: 25px;
+	border-bottom: 5px solid #000000;
+}
+h2 {
+	font-size: 20px;
+}
+.course {
+	overflow: hidden;
+}
+.box1 {
+	float: left;
+	margin-right: 20px;
+	padding: 20px;
+	width: 300px;
+	background: #79c53e;
+	border-radius: 10px;
+}
+.box2 {
+	float: left;
+	padding: 20px;
+	width: 300px;
+	background: #379ad4;
+	border-radius: 10px;
+}
+.notice {
+	margin-top: 20px;
+	padding: 20px;
+	border: 2px dotted #fa479f;
+	color: #fa479f;
+}

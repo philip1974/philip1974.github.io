@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.news {
+	padding: 30px;
+	border: 2px solid #dddddd;
+	border-radius: 10px;
+}
+.news-title {
+	font-size: 20px;
+}
+.info {
+	margin: 1em 0;
+	padding: 0;
+	list-style: none;
+}
+hr {
+	border: none;
+	height: 2px;
+	background: linear-gradient(90deg, rgba(37,180,10,0.1) 0%, rgba(37,180,210,1) 50%, rgba(37,180,10,0.1) 100%);
+}

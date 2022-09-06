@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+#edit {
+	padding: 5px 20px;
+	background: #e1e7eb;
+	border-radius: 5px;
+	border: 1px solid #9ea7ab;	
+	font-size: 14px;
+	color: #1280af;
+}
+#edit:hover {
+	background: #bfdcf1;
+}
+#edit:active {
+	background: #94cdf9;
+}

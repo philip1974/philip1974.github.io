@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+body {
+	line-height: 1.7;
+}
+strong {
+	font-weight: normal;
+	background: linear-gradient(transparent 55%, #fafa00 55%, #fafa00 100%);
+}

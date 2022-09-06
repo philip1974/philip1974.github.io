@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+}
+nav {
+	background: #000000;
+	border-bottom: 5px solid #37a29B;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 20px 10px 0 10px;
+}
+nav li a {
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #ffffff;
+}
+nav li a:hover {
+	background: #37a29B;
+	border-radius: 10px 10px 0 0;
+}

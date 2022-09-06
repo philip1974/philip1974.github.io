@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+a:link {
+	color: #4fb24b;
+}
+a:visited {
+	color: #8b8b8b;
+}
+a:hover {
+	color: #ff7c7e;
+}
+a:active {
+	color: #5e85ff;		
+}

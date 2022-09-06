@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+html * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: url(../images/bg.png);
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/* ヘッダー */
+header {
+	background: #000000;
+}
+.header-container {
+	padding: 30px 20px 10px 20px;
+}
+.header-logo {
+	margin: 0;
+	width: 200px;
+	height: 44px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: 200px 44px;
+	text-indent: -9999px;
+}
+/* ナビゲーション */
+nav {
+	background: #000000;
+}
+.nav-container {
+	padding: 0 20px 0 20px;
+}
+.globalnav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.globalnav li {
+	float: left;
+	width: 20%;
+}
+.globalnav li a {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 8px solid #ffffff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100%;
+	color: #ffffff;
+}
+.globalnav li a:hover,
+.globalnav li a.current {
+	border-bottom: 8px solid #7bae34;
+	color: #7bae34;
+}
+/* フッター */
+footer { }
+.footer-container {
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+	background: #000000;
+}
+.copyright {
+	margin: 0;
+	font-size: 0.8rem;
+	color: #ffffff;
+}
+/* メインコンテンツレイアウト部分 */
+main { }
+.main-container {
+	overflow: hidden;
+	padding: 0 0 40px 0;
+	background: #ffffff;
+}
+.sidebar {
+	float: right;/* leftをrightに */
+	margin: 0 0 0 20px;
+	padding: 30px 0 30px 0;
+	width: 300px;
+}
+.maincol {
+	float: left;/* rightをleftに */
+	margin: 0 -360px 0 20px;/* 左右入れ替え */
+	padding: 30px 0 30px 0;
+	width: 100%;
+}
+.maincol-container {
+	margin-right: 360px;/* leftをrightに */
+}
+/* 1コラム目 */
+.sidebar h1 {
+	margin: 0 0 20px 0;
+	font-size: 2rem;
+	color: #7bae34;
+}
+.subnav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top: 1px dashed #dadada;
+}
+.subnav li {
+	padding: 20px;
+	border-bottom: 1px dashed #dadada;
+}
+.subnav li a {
+	text-decoration: none;
+	color: #000000;
+}
+.subnav li a:hover,
+.subnav li a.current {
+	color: #7bae34;
+}
+/* 2コラム目 */
+.news h2 {
+	margin: 0 0 20px 0;
+	font-size: 1.2rem;
+}
+.news-contents {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.news-contents li {
+	overflow: hidden;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid #dadada;
+}
+.news-contents li img {
+	float: left;
+	margin-right: 10px;
+}
+.news-contents li p {
+	margin: 0;
+}

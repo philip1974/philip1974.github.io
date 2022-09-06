@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+main {
+	padding: 0 40px;
+}
+.contents h1 {
+	padding: 20px;
+	border: 1px solid #42acac;
+	color: #42acac;
+}
+.contents h2 {
+	padding: 10px 20px;
+	background-color: #42acac;
+	border-radius: 5px;
+	color: #ffffff;
+	font-size: 20px;
+}

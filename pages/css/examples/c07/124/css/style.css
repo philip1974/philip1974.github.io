@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.activity {
+	margin: 0 auto;
+	padding: 100px 40px 40px 40px;
+	width: 800px;
+	background: #f5f1dd url(../images/bg.png) repeat-x;
+} 

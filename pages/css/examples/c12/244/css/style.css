@@ -1,0 +1,41 @@
+ @charset "utf-8";
+
+body {
+	margin: 0;
+}
+header {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.logo {
+	margin: 50px auto;
+	width: 346px;
+	height: 82px;
+	background: url(../images/logo.png);
+	font-size: 0;
+}
+nav {
+	margin: 0 auto;
+	max-width: 1000px;
+	border-radius: 20px;
+	background: #000000;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+nav li a {
+	display: block;
+	padding: 20px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	color: #ffffff;
+}
+nav li a:hover {
+	color: #d2474a;
+}
+

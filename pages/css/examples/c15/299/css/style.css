@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.banner img {
+	border: 1px solid #c7c7c7;
+	/* アニメーションの設定 */
+	animation-name: change_color;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+@keyframes change_color {
+  0% {
+   filter: hue-rotate(0deg);
+  }
+  100% {
+   filter: hue-rotate(159deg);
+  }
+}

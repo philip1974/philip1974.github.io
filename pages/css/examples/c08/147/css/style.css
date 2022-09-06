@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+table {
+	border-collapse: collapse;
+}
+td, th {
+	padding: 8px 20px;
+}
+td:nth-child(4), td:nth-child(6) {
+	text-align: right;
+}
+table {
+	border: 3px solid #7facc9;
+}
+thead th {
+	border-bottom: 3px solid #7facc9;
+}
+tbody td {
+	border-bottom: 1px dashed #bdbdbd;
+}

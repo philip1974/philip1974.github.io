@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+dl {
+	overflow: hidden;
+}
+dt {
+	float: left;
+	font-weight: bold;
+}
+dd {
+	 margin:0 0 1em 0;
+}

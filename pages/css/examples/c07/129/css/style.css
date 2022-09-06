@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+main {
+	width: 80%;
+	max-width: 1000px;
+}
+.campaign {
+	border: 1px solid #c9c9c9;
+	background: url(../images/bg.png) left bottom no-repeat;
+	background-size: contain;
+}
+.campaign h1 {
+	margin: 50px 30px 30px 30px;
+	font-size: 30px;
+	text-align: center;
+}
+.campaign p {
+	margin: 0 30px 50px 30px;
+}

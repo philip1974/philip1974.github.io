@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.contents h1 {
+	border-bottom: 4px solid #2097B6;
+}
+.contents h2 {
+	border-bottom: 1px dotted #2097B6;
+}

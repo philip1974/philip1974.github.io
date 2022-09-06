@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.forecast {
+	margin: 30px;
+	border: 3px solid #ff9723;
+	padding: 30px;
+}

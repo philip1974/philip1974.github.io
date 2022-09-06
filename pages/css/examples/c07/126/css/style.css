@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.special {
+	margin: 0 auto;
+	border: 1px solid #cfcfcf;
+	padding: 50px;
+	width: 600px;
+	background: url(../images/bg.png) no-repeat;
+}
+.special h1 {
+	text-align: center;
+}

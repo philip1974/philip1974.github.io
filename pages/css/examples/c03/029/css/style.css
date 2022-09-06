@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+article h1 {
+	margin: 0 0 20px 0;
+	padding: 10px;
+	background: #7fa5bd;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #ffffff;
+}
+address {
+	border-top: 1px dashed #b7b7b7;
+	padding-top: 20px;
+	font-style: normal;
+	color: #909090;
+}

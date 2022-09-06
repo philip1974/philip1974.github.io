@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+td {
+	padding: 8px;
+}
+.price {
+	text-align: right;
+	font-weight: bold;
+}

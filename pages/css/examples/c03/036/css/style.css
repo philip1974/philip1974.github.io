@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+abbr {
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    cursor: help;
+}

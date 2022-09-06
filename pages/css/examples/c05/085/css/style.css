@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+a {
+	color: #ea6357;
+	text-decoration: none;
+}
+a:hover {
+	outline: 1px solid #ea6357;	
+}

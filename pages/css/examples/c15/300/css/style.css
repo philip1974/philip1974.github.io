@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+main {
+	width: 300px;
+}
+.infobox {
+	position: relative;
+	background-color: #e9e9e9;
+	padding: 10px;
+	border: 1px solid #d0d0d0;
+}
+.thumbnail {
+	margin-bottom: 10px;
+	font-size: 0;
+}
+.thumbnail img {
+	width: 100%;
+}
+.title {
+	margin: 0;
+	font-size: 14px;
+}
+.title a {
+	text-decoration: none;
+	color: #000000;
+}
+.infobox:hover .title a {
+	color: #717171;
+}
+ /* バッジ */
+.badge img {
+	position: absolute;
+	top: -8px;
+	right: 20px;
+	width: 60px;
+	height: 60px;
+	/* アニメーションの設定 */
+	animation-name: badge_rotation;
+	animation-duration: 0.5s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-play-state: paused;
+}
+.infobox:hover .badge img {
+	animation-play-state: running;
+}
+@keyframes badge_rotation {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+  	transform: translateX(-8px);
+  }
+  40% {
+  	transform: translateX(8px);
+  }
+  60% {
+  	transform: translateX(-2px);
+  }
+  80% {
+  	transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.contents h1 {
+	padding: 20px;
+	border-top: 5px solid #2097b6;
+	border-bottom: 1px dashed #999;
+	text-align: center;
+}
+.contents h2 {
+	padding-left: 10px;
+	border-left: 8px solid #2097b6;
+	
+}
+.contents h3 {
+	padding: 10px;
+	border-top: 1px dotted #2097b6;
+	border-left: 3px solid #2097b6;
+	color: #2097b6;
+}

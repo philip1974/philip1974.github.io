@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+html * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: url(../images/bg.png);
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/* ヘッダー */
+header {
+	background: #000000;
+}
+.header-container {
+	padding: 30px 20px 10px 20px;
+}
+.header-logo {
+	margin: 0;
+	width: 200px;
+	height: 44px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: 200px 44px;
+	text-indent: -9999px;
+}
+/* ナビゲーション */
+nav {
+	background: #000000;
+}
+.nav-container {
+	padding: 0 20px 0 20px;
+}
+.globalnav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.globalnav li {
+	float: left;
+	width: 20%;
+}
+.globalnav li a {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 8px solid #ffffff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100%;
+	color: #ffffff;
+}
+.globalnav li a:hover,
+.globalnav li a.current {
+	border-bottom: 8px solid #7bae34;
+	color: #7bae34;
+}
+/* フッター */
+footer { }
+.footer-container {
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+	background: #000000;
+}
+.copyright {
+	float: left;
+	margin: 0;
+	font-size: 0.8rem;
+	color: #ffffff;
+}
+footer address {
+	float: right;
+	font-style: normal;
+	font-size: 0.8rem;
+	color: #ffffff;	
+}
+/* メインコンテンツレイアウト部分 */
+main { }
+.main-container {
+	padding: 0 0 40px 0;
+	background: #ffffff;
+}
+.keyvisual {
+	font-size: 0;
+}
+.keyvisual img {
+	width: 100%;
+}
+.maincopy {
+	margin: 0;
+	padding: 40px 20px 0 20px;
+	text-align: center;
+	font-size: 1.5rem;	
+}

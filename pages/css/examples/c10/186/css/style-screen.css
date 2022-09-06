@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+main {
+	padding: 0 40px;
+}
+.contents h1 {
+	padding: 20px;
+	background-color: #42acac;
+	color: #fff;
+}
+.contents h2 {
+	border-bottom: 1px solid #42acac;
+	color:  #42acac;
+}

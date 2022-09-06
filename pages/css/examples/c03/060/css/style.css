@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.voice::before {
+	content: "“";
+	color: #1aa7b1;
+}
+.voice::after {
+	content: "”";
+	color: #1aa7b1;
+}

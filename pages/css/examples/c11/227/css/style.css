@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+input[type="text"] {
+	border: 3px solid #dedede;
+	padding: 10px 10px 10px 40px;
+	width: 300px;
+	background: url(../images/icon.png) 10px center no-repeat;
+	font-size: 20px;
+}
+input[type="submit"] {
+	padding: 5px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	background: #2ca9b4;
+	color: #ffffff;
+}

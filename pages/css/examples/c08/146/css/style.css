@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+table {
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid #b7b7b7;
+	padding: 6px 10px;
+}
+tbody th {
+	vertical-align: top;
+	text-align: left;
+}
+tbody td:last-child {
+	text-align: right;
+}

@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.banner:hover {
+	opacity: 0.5;
+}

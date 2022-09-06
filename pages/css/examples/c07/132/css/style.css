@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.detail {
+	border: 20px solid #fce377;
+	border-image-source: url(../images/border.png);
+	border-image-slice: 60;
+	border-image-width: 60px;
+	border-image-repeat: repeat;
+	padding: 80px;
+}
+.detail h1 {
+	text-align: center;
+}

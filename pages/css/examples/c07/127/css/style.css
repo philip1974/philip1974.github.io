@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.event {
+	margin: 0 auto;
+	border: 1px solid #7eb169;
+	padding: 80px 50px;
+	width: 500px;
+	background: url(../images/bg.png) center center no-repeat;
+}
+.event h1 {
+	text-align: center;
+}

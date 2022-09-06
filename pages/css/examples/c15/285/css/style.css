@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.news {
+	padding: 30px;
+	border: 2px solid #dddddd;
+	border-radius: 10px;
+}
+.news-title {
+	font-size: 20px;
+}
+.info {
+	margin: 1em 0;
+	padding: 0;
+	list-style: none;
+}
+hr {	
+	margin-top: 30px;
+	border: none;
+	border-top: 1px dashed #36a0e8;
+	text-align: center;
+}
+hr::before {
+	content: "Breakfast Menu";
+	display: inline-block;
+	position: relative;
+	top: -12px;
+	padding: 0 10px;
+	background-color: #ffffff;
+	font-family: Courier, monospace;
+	font-size: 18px;
+	color:  #36a0e8;
+}

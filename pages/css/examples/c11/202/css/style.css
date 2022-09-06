@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.tool_btn {
+	text-decoration: none;
+}
+.tool_btn  div {
+	margin-bottom: 10px;
+	padding: 20px 0;
+	width: 150px;
+	background: #267f85;
+	border-radius: 10px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+}
+.tool_btn  div:hover {
+	background: #329b99;
+}

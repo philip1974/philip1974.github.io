@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+html {
+}
+body {
+	margin: 0;
+	background: #000000;
+}
+header {
+	padding: 40px;
+}
+h1 {
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+}
+.keyvisual-wrapper {
+	position: relative;
+	font-size: 0;
+}
+.video-container video {
+	width: 100%;
+}
+.information {
+	display: none; /* スマートフォンでは非表示 */
+}
+
+@media screen and (min-width: 768px) {
+	.information {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		display: inline-block;
+		padding: 20px;
+		background: #d4531b;
+		border-radius: 20px;
+		opacity: 0.8;
+		font-family: 'Homenaje', sans-serif;
+		font-size: 20px;
+		color: #ffffff;
+	}
+}
+

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+address {
+	font-style: normal;
+}
+
+address {
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	padding: 16px;
+}

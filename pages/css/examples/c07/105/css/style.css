@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+a {
+	text-decoration: none;
+}
+.campaign {
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px;
+	background: #389bc2;
+	color: #ffffff;
+	text-align: center;
+}
+.campaign:hover {
+	background: #fdb657;	
+}

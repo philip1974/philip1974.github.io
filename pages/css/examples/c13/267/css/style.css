@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+html * {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: url(../images/bg.png);
+	font-family: sans-serif;
+	font-size: 16px;
+}
+/* ヘッダー */
+header {
+	background: #000000;
+}
+.header-container {
+	padding: 30px 20px 10px 20px;
+}
+.header-logo {
+	margin: 0;
+	width: 200px;
+	height: 44px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: 200px 44px;
+	text-indent: -9999px;
+}
+/* ナビゲーション */
+nav {
+	background: #000000;
+}
+.nav-container {
+	padding: 0 20px 0 20px;
+}
+.globalnav {
+	display: flex;
+	flex-flow: row;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.globalnav li {
+	flex: 0 0 20%;	
+}
+.globalnav li a {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 8px solid #ffffff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100%;
+	color: #ffffff;
+}
+.globalnav li a:hover,
+.globalnav li a.current {
+	border-bottom: 8px solid #7bae34;
+	color: #7bae34;
+}
+/* フッター */
+footer { }
+.footer-container {
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
+	background: #000000;
+}
+.copyright {
+	margin: 0;
+	font-size: 0.8rem;
+	color: #ffffff;
+}
+/* メインコンテンツレイアウト部分 */
+main { }
+.main-container {
+	padding: 0 0 40px 0;
+	background: #ffffff;
+}
+/* 値段表部分 */
+.pricelist {
+	margin: 0 20px;
+}
+.pricelist h1 {
+	margin: 0;
+	padding: 30px 0;
+	font-size: 1.2rem;
+}
+.pricelist-contents {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;	
+}
+.pricelist-contents li {
+	flex: 0 0 24%;
+
+	display: flex;
+	flex-flow: column;
+	border: 1px solid #dadada;
+	border-radius: 10px;
+}
+.pricelist-contents li img {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+.pricelist-contents li h2 {
+	margin: 0;
+	padding: 10px;
+	text-align:center;
+	font-size: 0.9rem;
+}
+.price {
+	margin: 0;
+	padding: 10px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+.price small {
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+.info {
+	margin: 0;
+	padding: 10px;
+	font-size: 0.9rem;
+}
+.btn {
+	display: block;
+	margin: auto 20px 20px 20px;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #000000;
+	text-align:center;
+	text-decoration: none;
+	color: #ffffff;
+}
+.btn:hover {
+	background-color: #3B3B3B;
+}

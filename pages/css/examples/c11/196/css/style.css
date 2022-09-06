@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+li {
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+a {
+	color: #1396c0;
+}
+a[href$=".pdf"] {
+	padding: 8px 20px;
+	border: 1px solid #1396c0;
+	border-radius: 3px;
+	background-color: #e0f4ff;
+	text-decoration: none;
+}
+a[href$=".pdf"]::after {
+	margin-left: 5px;
+	content: url(../images/pdf.png);
+	position: relative;
+	bottom: -3px;
+}

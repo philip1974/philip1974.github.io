@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+.article_head {
+	padding: 70px 20px 30px 20px;
+	background: url(../images/bg1.png) repeat-x top,
+	            url(../images/bg2.png) repeat-x bottom;
+	font-size: 40px;
+	color: #515151;	
+}
+.subtitle {
+	display: block;	
+	padding-top: 5px;
+	border-top: 1px dashed #3b98b6;
+	font-size: 16px;
+	font-weight: normal;
+	color: #3b98b6;
+}
+p {
+	color: #515151;	
+}

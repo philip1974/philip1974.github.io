@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+input[type="text"] {
+	padding: 10px 10px 10px 40px;
+	width: 300px;
+	height: 20px;
+	border: 3px solid #2ca9b4;
+	border-right: none;
+	border-radius: 30px 0 0 30px;
+	background: url(../images/icon.png) 10px center no-repeat;
+	font-size: 20px;
+}
+input[type="submit"]{
+	margin: 0;
+	border: none;
+	padding: 0 20px;
+	height: 46px;
+	border-radius: 0 30px 30px 0;
+	font-size: 12px;
+	background: #2ca9b4;
+	color: #fff;
+	vertical-align: bottom;
+}
