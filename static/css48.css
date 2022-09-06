@@ -65,13 +65,13 @@ main {
     width: 400px;
 }
 
-h2 {
+.detail-h2 {
     border: 1px solid #e5e5e5;
     background-color: #f78ae0;
     padding: 8px;
 }
 
-h3 {
+.detail-h3 {
     border: 1px solid #e5e5e5;
     background-color: #f1f1f2;
     padding: 8px;
