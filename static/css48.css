@@ -37,3 +37,42 @@ main {
     font-size: large;
     font-weight: bold;
 }
+
+#player {
+    width: 560px;
+    height: 315px;
+}
+
+.start-time-button {
+    /* border: solid blue 2px; */
+    padding: 5px;
+    color: blue;
+    cursor: pointer;
+}
+
+.demos {
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background-color: #e5e5e5;
+}
+
+.demos a {
+    text-decoration: none;
+}
+
+.detail-img {
+    width: 400px;
+}
+
+h2 {
+    border: 1px solid #e5e5e5;
+    background-color: #f78ae0;
+    padding: 8px;
+}
+
+h3 {
+    border: 1px solid #e5e5e5;
+    background-color: #f1f1f2;
+    padding: 8px;
+}

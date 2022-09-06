@@ -13,30 +13,37 @@
 
 <body>
 
-    <div id="player">zTTP8XBR6fI</div>
+    <main>
+        <div id="player">zTTP8XBR6fI</div>
 
-    <div>
-        <button class="start-time" onclick="play('5:00')">5:00</button>
-        <ul>
-            <li onclick="play('10:00')">第十分钟</li>
-        </ul>
-        <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
-        <code class="language-dart">
-            child: Container(
-                width: 172,
-                height:172,
-                margin: const EdgeInsets.only(bottom: 10.0),
-                decoration: BoxDecoration(
-                  border: Border.all(
-                    color: Colors.blue,
-                    width: 2,
-                  ),
-                ),
+        <div>
+            <h2 class="content2"><span class="start-time-button" onclick="play('0:39')">0:39</span> 开始AppBar区域</h2>
+            <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
+        <code class="language-dart">  
+@override
+Widget build(BuildContext context) {
+    return Scaffold(
+    appBar: AppBar(
+        title: Text("UI设计灵感"),
+        // 设置AppBar的阴影高度
+        elevation: 0,
+        //手机头部状态栏的颜色（dark - 深色，light - 浅色）
+        systemOverlayStyle: Theme.of(context).brightness == Brightness.dark? SystemUiOverlayStyle.dark : SystemUiOverlayStyle.light,
+        leading: IconButton(
+            icon: const Icon(Icons.menu,),
+            onPressed: () {},
+            ),
+    ), //AppBar end
+    
+    );
+}
         </code>
     </pre>
-    </div>
-    </div>
-
+            <h2 class="content2"><span class="start-time-button" onclick="play('1:33')">1:33</span> 开始body区域 - Banner
+            </h2>
+        </div>
+        </div>
+    </main>
 
     <script src="../../../static/prism.js"></script>
 

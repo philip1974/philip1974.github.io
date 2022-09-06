@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../static/prism.css">
+    <link rel="stylesheet" href="../../../../static/css48.css">
+    <title>Button 사용하기</title>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Button 사용하기</h1>
+        <p>
+            Flutter의 button은 크게 3가지로 나뉜다.ElevatedButton, TextButton, OutlinedButton이다.
+        </p>
+        <div>
+            <h2>ElevatedButton</h2>
+            <p>
+                Elevated - 높이가 있는 버튼
+            </p>
+            <img class="detail-img"
+                src="https://user-images.githubusercontent.com/6972517/188306527-a69daf3e-b286-452c-a305-9216d7489061.png"
+                alt="">
+            <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
+                <code class="language-dart"> 
+ElevatedButton(
+    onPressed: () {},
+    child: Text('ElevatedButton'),
+    ),
+                </code>
+            </pre>
+            <h3>Button 스타일 수정하기</h3>
+            <p>ElevatedButton의 스타일을 수정하려면 style 속성을 사용한다.</p>
+            <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
+                <code class="language-dart">
+style: ElevatedButton.styleFrom(),
+                </code>
+            </pre>
+            <h4>padding 추가하기</h4>
+            <img class="detail-img"
+                src="https://user-images.githubusercontent.com/6972517/188306527-a69daf3e-b286-452c-a305-9216d7489061.png"
+                alt="">
+            <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
+                <code class="language-dart">
+padding: EdgeInsets.all(20.0),
+                </code>
+            </pre>
+            <h4>Button 크기 수정하기</h4>
+            <img src="https://user-images.githubusercontent.com/6972517/188306628-c7d098b3-8b4a-4a24-81d2-3c8ecd04567a.png"
+                alt="" class="detail-img">
+            <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
+                <code class="language-dart">
+fixedSize: Size(300, 80),
+                </code>
+            </pre>
+            <h4>Button 글자 크기 수정하기</h4>
+            <img class="detail-img"
+                src="https://user-images.githubusercontent.com/6972517/188306527-a69daf3e-b286-452c-a305-9216d7489061.png"
+                alt="">
+            <pre lang="zh-Hans-CN" data-prismjs-copy="复制文本" data-prismjs-copy-success="文本已复制！">
+                <code class="language-dart">
+textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                </code>
+            </pre>
+        </div>
+        <div>
+            <h2>OutlinedButton</h2>
+            <p>
+                Outlined - 테두리가 있는 버튼
+            </p>
+        </div>
+        <div>
+            <h2>TextButton</h2>
+            <p>
+                Text - 텍스트만 있는 버튼
+            </p>
+        </div>
+        </div>
+    </main>
+
+    <script src="../../../../static/prism.js"></script>
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+    <script src="../../../../static/youtube-play.js"></script>
+    <script src="../../../../static/css48.js"></script>
+</body>
+
+</html>
