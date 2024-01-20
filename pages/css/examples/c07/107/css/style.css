@@ -1,9 +1,0 @@
-@charset "utf-8";
-
-/* iframe의 HTML(sub/c07-06-sub.html)용 CSS */
-.report h2 {
-	font-size: 1em;
-}
-.report p {
-	font-size: 0.85em;
-}
